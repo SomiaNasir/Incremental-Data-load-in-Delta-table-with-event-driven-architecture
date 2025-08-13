@@ -21,5 +21,5 @@ A metastore is the top-level container for data in Unity Catalog. Unity Catalog 
 
 
 Create Volume:  
-<img width="700" height="600" alt="image" src="https://github.com/user-attachments/assets/9e96b554-9803-4860-b40b-2c21ad977469" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/9e96b554-9803-4860-b40b-2c21ad977469" />
 
