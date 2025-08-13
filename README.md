@@ -10,7 +10,10 @@ Setup an event driven pipeline using databricks and GCP. The files should be rec
 
 
 ## Setting up:  
-This project was started with setting up GCP and databricks using the free tier version. Databricks is provided as a service in GCP and can be accessed from GCP console. A new workspace in databricks was created which also triggers the formation of a metastore in the same region.  
+This project was started with setting up GCP and databricks using the free tier version. Databricks is provided as a service in GCP and can be accessed from GCP console.   
+
+# Workspace and Metastore in databricks  
+A new workspace in databricks was created which also triggers the formation of a metastore in the same region.  
 A metastore is the top-level container for data in Unity Catalog. Unity Catalog metastores register metadata about securable objects (such as tables, volumes, external locations, and shares) and the permissions that govern access to them. Each metastore exposes a three-level namespace (catalog.schema.table) by which data can be organized.  
   
 <img width="1128" height="197" alt="image" src="https://github.com/user-attachments/assets/f3d47a7c-a90f-414b-8892-4fb770aa8719" />  
@@ -31,7 +34,9 @@ I have described below briefly the purpuse of these buckets:
 
 2. External tables & volumes in a catalog are stored in custom GCS buckets you link to UC. These are not auto-created — you bring your own, set IAM, and register them in Unity Catalog.  
 
-3. The two workspace buckets (databricks-<workspace-id> and databricks-<workspace-id>-system) are for operational and DBFS use — not for production data under Unity Catalog.  
+3. The two workspace buckets (databricks-<workspace-id> and databricks-<workspace-id>-system) are for operational and DBFS use — not for production data under Unity Catalog.
+
+# External Location (Volume)
 
 Next up is registering 'for_incremental_load' bucket in databricks. Before adding this location as external location, we need to set up storage credentials first (catalog --> External Data --> Credentials). 
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/69d67969-144c-48e4-81d6-956a02433fd8" />  
@@ -41,9 +46,11 @@ Now, we can create external location in databricks (catalog --> External Data --
 <img width="566" height="572" alt="image" src="https://github.com/user-attachments/assets/b7a49045-1868-4096-aa8c-f741054c03d5" />  
 Then, a new catalog was created and in its default schema, a volume was created by selecting the external location set up in previous step and now we can see bucket's folder in databricks.  
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/9e96b554-9803-4860-b40b-2c21ad977469" />
-<img width="650" height="600" alt="image" src="https://github.com/user-attachments/assets/f221c0fd-7cd3-4412-b336-5b4e528ca33d" />
+<img width="650" height="600" alt="image" src="https://github.com/user-attachments/assets/f221c0fd-7cd3-4412-b336-5b4e528ca33d" />  
 
-
+# Git Folder in databricks  
+Firstly we need to create a repository in github and get personal access token (PAT) from settings --> developer --> personal access token (classic).  
+Then in databricks go to workspace --> create --> git folder
 
 
 
