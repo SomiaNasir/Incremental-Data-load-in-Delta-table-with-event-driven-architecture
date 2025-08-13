@@ -1,15 +1,15 @@
-# Incremental-Data-load-in-Delta-table-with-event-driven-architecture  
+### Incremental-Data-load-in-Delta-table-with-event-driven-architecture  
 
-Objectives:  
+#Objectives:  
 Setup an event driven pipeline using databricks and GCP. The files should be received at Google storage which will trigger the pipeline to process the data.  
   
-Architecture Diagram:  
+#Architecture Diagram:  
 
 
 
 
 
-Setting up:  
+#Setting up:  
 This project was started with setting up GCP and databricks using the free tier version. Databricks is provided as a service in GCP and can be accessed from GCP console. A new workspace in databricks was created which also triggers the formation of a metastore in the same region.  
 A metastore is the top-level container for data in Unity Catalog. Unity Catalog metastores register metadata about securable objects (such as tables, volumes, external locations, and shares) and the permissions that govern access to them. Each metastore exposes a three-level namespace (catalog.schema.table) by which data can be organized.  
   
@@ -21,5 +21,5 @@ A metastore is the top-level container for data in Unity Catalog. Unity Catalog 
 
 
 Create Volume:  
-<img width="959" height="929" alt="image" src="https://github.com/user-attachments/assets/9e96b554-9803-4860-b40b-2c21ad977469" />
+<img width="700" height="350" alt="image" src="https://github.com/user-attachments/assets/9e96b554-9803-4860-b40b-2c21ad977469" />
 
