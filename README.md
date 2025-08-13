@@ -50,7 +50,12 @@ Then, a new catalog was created and in its default schema, a volume was created 
 
 # Git Folder in databricks  
 Firstly we need to create a repository in github and get personal access token (PAT) from settings --> developer --> personal access token (classic).  
-Then in databricks go to workspace --> create --> git folder
+Then in databricks go to workspace --> create --> git folder --> copy the github repo link from github as below --> create.
+<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/4a029d79-2117-47a8-8666-3dc32eb9a2c4" />  
+Next, we can create dev branch by going to main --> create branch.  
+<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/a3c2a37d-d717-4f49-91db-22eaccb98993" />  
+
+
 
 
 
