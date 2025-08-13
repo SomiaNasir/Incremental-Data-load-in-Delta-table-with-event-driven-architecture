@@ -18,11 +18,11 @@ A metastore is the top-level container for data in Unity Catalog. Unity Catalog 
 <img width="620" height="290" alt="image" src="https://github.com/user-attachments/assets/d2e21aab-e96b-4040-8525-50f07a28e71c" />
 
 We can see the top 3 buckets setup by databricks in google cloud storage.  
-<img width="1383" height="490" alt="image" src="https://github.com/user-attachments/assets/0d973afe-fc0b-48d1-90f8-a335005b7250" />
+<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/0d973afe-fc0b-48d1-90f8-a335005b7250" />
 
 The last one 'for_incremental_load' is created by me to get the user input files which would land in source folder and be achived in archive folder.  
 
-<img width="1742" height="618" alt="image" src="https://github.com/user-attachments/assets/6e9c13c7-a423-4cfc-b37b-3c031f099dee" />
+<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/6e9c13c7-a423-4cfc-b37b-3c031f099dee" />
 
   
 
