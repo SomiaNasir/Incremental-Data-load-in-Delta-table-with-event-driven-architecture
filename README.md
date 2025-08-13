@@ -41,7 +41,7 @@ Now, we can create external location in databricks (catalog --> External Data --
 <img width="566" height="572" alt="image" src="https://github.com/user-attachments/assets/b7a49045-1868-4096-aa8c-f741054c03d5" />  
 Then, a new catalog was created and in its default schema, a volume was created by selecting the external location set up in previous step and now we can see bucket's folder in databricks.  
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/9e96b554-9803-4860-b40b-2c21ad977469" />
-<img width="1168" height="743" alt="image" src="https://github.com/user-attachments/assets/f221c0fd-7cd3-4412-b336-5b4e528ca33d" />
+<img width="650" height="600" alt="image" src="https://github.com/user-attachments/assets/f221c0fd-7cd3-4412-b336-5b4e528ca33d" />
 
 
 
