@@ -34,12 +34,13 @@ I have described below briefly the purpuse of these buckets:
 3. The two workspace buckets (databricks-<workspace-id> and databricks-<workspace-id>-system) are for operational and DBFS use — not for production data under Unity Catalog.  
 
 Next up is registering 'for_incremental_load' bucket in databricks. Before adding this location as external location, we need to set up storage credentials first (catalog --> External Data --> Credentials). 
-<img width="932" height="821" alt="image" src="https://github.com/user-attachments/assets/69d67969-144c-48e4-81d6-956a02433fd8" />  
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/69d67969-144c-48e4-81d6-956a02433fd8" />  
 After creating, it would pop up with service account email which needs to be added to the GCP IAM and granted storage permissions as follows:  
 <img width="719" height="73" alt="image" src="https://github.com/user-attachments/assets/4f74b0d9-24ab-4315-b2a2-64c5a7495137" />  
 Now, we can create external location in databricks (catalog --> External Data --> External Locations). Select the Credential just being set up in previous step.  
 <img width="566" height="572" alt="image" src="https://github.com/user-attachments/assets/b7a49045-1868-4096-aa8c-f741054c03d5" />  
 Then, a new catalog was created and in its default schema, a volume was created by selecting the external location set up in previous step and now we can see bucket's folder in databricks.  
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/9e96b554-9803-4860-b40b-2c21ad977469" />
 <img width="1168" height="743" alt="image" src="https://github.com/user-attachments/assets/f221c0fd-7cd3-4412-b336-5b4e528ca33d" />
 
 
@@ -50,6 +51,5 @@ Then, a new catalog was created and in its default schema, a volume was created 
 
 
 
-Create Volume:  
-<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/9e96b554-9803-4860-b40b-2c21ad977469" />
+
 
