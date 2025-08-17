@@ -71,7 +71,8 @@ Again, file for next day is dropped in the source location. All the files are re
 
 <img width="700" height="600" alt="image" src="https://github.com/user-attachments/assets/9428c903-8fc6-4bc2-b987-c32ac157fb17" />  
 
-Once we are happy with the code, we can push the changes to github by workspace --> Incremental-Data-load-in-Delta-table-with-event-driven-architecture --> dev --> commit and push.
+Once we are happy with the code, we can push the changes to github by workspace --> Incremental-Data-load-in-Delta-table-with-event-driven-architecture --> dev --> commit and push.  
+Following this step, we can see compare and pull request option on the repo on github. We can create pull request and then merge the dev branch with main.
 
 
 
