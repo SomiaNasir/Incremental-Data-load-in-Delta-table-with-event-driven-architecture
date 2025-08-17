@@ -67,7 +67,7 @@ Next, some files are dropped in source location to trigger the pipeline.
 
 <img width="600" height="700" alt="image" src="https://github.com/user-attachments/assets/cce3f4f0-439d-4cee-814c-52cc0b9cd33b" />  
 
-Again, another file is dropped in the source location. All the files are read in staging table which is then merged into the target table and when the ids are matching we want to delete that row from target table which enable us to have an new order record for that id in target table. This changes can be observed for id 1000 as new file has some record for it and it is getting replaces as compared to previous query output.  
+Again, file for next day is dropped in the source location. All the files are read in staging table which is then merged into the target table and when the ids are matching we want to delete that row from target table which enable us to have an new order record for that id in target table. This changes can be observed for id 1000 as new file has some record for it and it is getting replaced as compared to previous query output.  
 
 <img width="700" height="600" alt="image" src="https://github.com/user-attachments/assets/9428c903-8fc6-4bc2-b987-c32ac157fb17" />
 
