@@ -60,6 +60,7 @@ Next, we can create dev branch by going to main --> create branch.
 In databricks, a new job is created with 2 tasks of staging and loading and job is triggered based on file arrival in source path.  
 
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/234915db-434f-4af3-8cb7-d94602597ff2" />  
+  
 Next, some files are dropped in source location to trigger the pipeline.  
 
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/895421fb-1e52-4f3d-a3b8-fa85c93e14a5" />  
